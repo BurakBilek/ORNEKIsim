@@ -28,7 +28,8 @@ public class Question17 {
 		}
 		if (emailCode != emailInput) {
 			System.out.println("Email kodunuz yanlış");
-		} else {
+		}
+		if (smsCode == smsInput && emailCode == emailInput) {
 			System.out.println("Başarıyla giriş yaptınız!");
 
 		}

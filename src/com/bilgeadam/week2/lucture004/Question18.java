@@ -1,5 +1,7 @@
 package com.bilgeadam.week2.lucture004;
 
+import java.util.Scanner;
+
 public class Question18 {
 
 	public static void main(String[] args) {
@@ -13,6 +15,26 @@ public class Question18 {
 		 * 
 		 * 
 		 */
+
+		Scanner scanner = new Scanner(System.in);
+		int smsCode = 444;
+		int smsInput;
+		int emailCode = 555;
+		int emailInput;
+
+		System.out.println("lutfen sms kodunuzu giriniz:");
+		smsInput = scanner.nextInt();
+		System.out.println("lutfen email kodunuzu giriniz:");
+		emailInput = scanner.nextInt();
+
+		if (smsCode != smsInput && emailCode == emailInput) {
+			System.out.println("girdiğiniz sms kodu hatalıdır");
+		} else if (smsCode == smsInput && emailCode != emailInput) {
+			System.out.println("Girdiğiniz email kodu hatalıdır");
+		} else if (smsCode != smsInput && emailCode != emailInput) {
+			System.out.println("Girdiğiniz sms kodu ve email kodu hatalıdır.");
+		} else
+			System.out.println("sisteme başarı ile giriş yaptınız");
 
 	}
 

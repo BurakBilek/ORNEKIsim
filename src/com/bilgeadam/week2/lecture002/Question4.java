@@ -21,7 +21,7 @@ public class Question4 {
 		// System.out.println();
 		// System.out.println();
 		System.out.println("####");
-		System.out.println("isim:" + isim + "/nsoyisim: " + soyisim);
+		System.out.println("isim:" + isim + "\nsoyisim: " + soyisim);
 
 		// ctrl + shift + 7
 		char a = 'a';

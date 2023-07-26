@@ -23,7 +23,7 @@ public class Question15 {
 			System.out.println("Sayı Girişi Yapınız");
 			number = scanner.nextInt();
 		}
-		System.out.println("Toplam kısmınız:" + toplam + "/nortalamanız:" + ortalama);
+		System.out.println("Toplam kısmınız:" + toplam + "\nortalamanız:" + ortalama);
 		scanner.close();
 
 	}

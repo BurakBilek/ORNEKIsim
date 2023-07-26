@@ -13,7 +13,7 @@ public class Question3 {
 		double dolarkuru = 26.11;
 		double exchange;
 		exchange = tl / dolarkuru;
-		System.out.println("");
+		System.out.println(tl + "TL: " + exchange + " dolara eşittir ");
 
 	}
 

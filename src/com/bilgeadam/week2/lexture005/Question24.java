@@ -20,8 +20,23 @@ public class Question24 {
 		while (i <= 5) {
 			System.out.println("Lütfen bir sayı giriniz");
 			num = scanner.nextInt();
-		}
 
+			if (num >= 0 && num <= 100) {
+
+				if (num > max) {
+					max = num;
+				}
+				if (num < min) {
+					min = num;
+				}
+
+				i++;
+			} else {
+				System.err.println("lütfen geçerli bir sayı giriniz (0-100)");
+			}
+		}
+		System.out.println("Max =" + max);
+		System.out.println("min =" + min);
 	}
 
 }
