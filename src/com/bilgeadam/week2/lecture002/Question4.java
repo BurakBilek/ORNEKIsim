@@ -26,7 +26,7 @@ public class Question4 {
 		// ctrl + shift + 7
 		char a = 'a';
 		char b = 'b';
-		System.out.println("ASCII a: " + (int) a + "/nASCII b: " + (int) b);
+		System.out.println("ASCII a: " + (int) a + "\nASCII b: " + (int) b);
 		System.out.println(a + b);
 
 	}

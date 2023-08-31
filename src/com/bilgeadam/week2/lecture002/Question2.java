@@ -16,7 +16,7 @@ public class Question2 {
 		priceWithoutVat = price / 1.18;
 		System.out.println("KDV'siz fiyatı" + priceWithoutVat);
 		rawPrice = priceWithoutVat / 1.15;
-		System.out.println("Ham fiyatı");
+		System.out.println("Ham fiyatı" + rawPrice);
 
 	}
 
